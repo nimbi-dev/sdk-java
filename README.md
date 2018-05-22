@@ -15,6 +15,4 @@ You can contact us if you have questions using the standard communication channe
 ## I want to contribute!
 That is great! Just fork the project in github. Create a topic branch, write some code, and add some tests for your new code.
 
-To run the tests run make test.
-
 Thanks for helping!
