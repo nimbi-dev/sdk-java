@@ -30,7 +30,7 @@ public class NimbiTest extends Assert {
                 new NimbiClient( Environment.QA, "[some_client_api_id]", "[some_client_api_key]" );
 
         final ConnectivityTest connectivityTest = new ConnectivityTest( client );
-        final Response response = connectivityTest.testConectivity();
+        final Response response = connectivityTest.testConnectivity();
         assertEquals(
                 "{\"Errors\":[\"Invalid API Key. ([some_client_api_key])\"],\"StatusCode\":400}",
                 response.body().string() );
