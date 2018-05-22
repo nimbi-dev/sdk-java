@@ -31,7 +31,7 @@ public class ConnectivityTest extends Callable {
      * @throws IOException
      *             if any unexpected error occurs.
      */
-    public Response testConectivity() throws IOException {
+    public Response testConnectivity() throws IOException {
         final OkHttpClient client = new OkHttpClient();
 
         final Request request =
